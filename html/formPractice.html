@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="registration.php" method="post">
+        <p>My registration Form</p>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password">
+
+        <label for="passwordConfirm">Password Confirmation</label>
+        <input type="text" id="passwordConfirm" name="passwordConfirm">
+
+        <label for="birthday">Birthdate</label>
+        <input type="date" id="birthday" name="birthday">
+
+        <p>Select Your Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="decline">Prefer Not To Say</label>
+        <input type="radio" id="decline" name="gender" value="decline">
+
+        <p>Provide a small Description of Yourself</p>
+        <textarea name="Description"></textarea>
+
+        <p>Select Your Favorite Language</p>
+        <select name="favLanguage">
+            <option value="javascript">Javascript</option>
+            <option value="python">Python</option>
+            <option value="html">HTML</option>
+            <option value="CSS">CSS</option>
+        </select>
+
+        <input type="submit" value="Click here to complete registration">
+    </form>
+</body>
+</html>
